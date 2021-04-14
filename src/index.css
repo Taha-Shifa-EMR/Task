@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('assets/fonts/open-sans/OpenSans-Regular-webfont.eot');
+  src: url('assets/fonts/open-sans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),        
+       url('assets/fonts/open-sans/OpenSans-Regular-webfont.woff') format('woff'),
+       url('assets/fonts/open-sans/OpenSans-Regular-webfont.ttf') format('truetype'),
+       url('assets/fonts/open-sans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('assets/fonts/open-sans/OpenSans-Bold-webfont.eot');
+  src: url('assets/fonts/open-sans/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),         
+       url('assets/fonts/open-sans/OpenSans-Bold-webfont.woff') format('woff'),
+       url('assets/fonts/open-sans/OpenSans-Bold-webfont.ttf') format('truetype'),
+       url('assets/fonts/open-sans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+-webkit-font-smoothing: antialiased;
+}
+
+
+/*Variables*/
+:root {
+  --primary-font-regular: 'open_sansregular';
+  --primary-font-bold: 'open_sansbold';
+
+  --primary-text-color: #3c4c7b;
+  --primary-link-color: #0093dd;
+
+  --body-background-color: #eaf0f7;
+  --primary-background-color: #0093dd;
+  --primary-background-color-hover: #3f6daa;
+  --selected-background-color: #2f4686;
+  --background-alternate-color: #f1f5fa;
+
+  --green-background-color: #008e57;
+  --green-background-color-hover: #006a41;
+
+  --primary-font-size: 12px;
+
+  --error-msg-color: #c40000;
+}
+
+
+::-webkit-scrollbar {
+  width:3px;
+  height:3px
+}
+::-webkit-scrollbar-button {
+  background-color:#fff;
+  height:0
+}
+::-webkit-scrollbar-track {
+  background-color:#fff
+}
+::-webkit-scrollbar-track-piece {
+  background-color:#fff
+}
+::-webkit-scrollbar-thumb {
+  height:50px;
+  background-color:#ccc;
+  border-radius:3px
+}
+::-webkit-scrollbar-corner {
+  background-color:#ccc
+}
+::-webkit-resizer {
+  background-color:#ccc
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */

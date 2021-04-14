@@ -1,0 +1,75 @@
+.complaints-container{
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-radius: 4px;  
+}
+
+.complaints-header-text{
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-bold);
+  font-size: 11px;
+}
+
+.complaints-text-area{
+    padding: 12px 0;
+}
+
+.presenting-complaints-text{
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-regular);
+}
+
+.presenting-complaints-text::placeholder{
+  font-family: var(--primary-font-regular) !important;
+}
+
+.complaints-select-header .ant-select-selection-item{
+  color: var(--primary-text-color) !important;
+  font-family: var(--primary-font-bold) !important;
+}
+
+.complaints-select-header{
+  width: 170px;
+}
+
+.complaints-container .ant-select, .complaints-container .ant-select input, .complaints-container .ant-select .ant-select-selection-item {
+  font-family: var(--primary-font-bold) !important;
+  color: var(--primary-text-color);
+  font-size: 11px !important;
+}
+
+.complaints-container .ant-select .ant-select-selection-placeholder, .complaints-container textarea::placeholder {
+  font-family: var(--primary-font-regular) !important;
+  color: var(--primary-text-color);
+}
+
+.complaints-container .container-heading {
+  line-height: 32px;
+}
+
+.complaints-container textarea {
+  resize: none;
+  color: var(--primary-text-color);
+  font-size: 11px !important;
+  font-family: var(--primary-font-bold) !important;
+  padding: 10px;
+  height: 127px;
+}
+.p-settings {
+  text-align: right;
+  color: #9191af;
+  line-height: 20px;
+  font-size: 10px;
+  margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 56.5em){
+  .complaints-select-header{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .complaints-container{
+    height: 17rem;
+  }
+}

@@ -1,0 +1,22 @@
+.footer-text{
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-regular);
+  display: flex;
+  justify-content: center;
+  font-size: var(--primary-font-size);
+}
+
+.footer-copy-right-logo{
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 37.25em){
+  .footer-text{
+    font-size: 10px;
+  }
+
+  .footer-copy-right-logo{
+    margin-top: 1.5px;
+  }
+}

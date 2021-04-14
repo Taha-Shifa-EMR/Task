@@ -1,0 +1,61 @@
+.main-screen-container{
+    background-color: #eaf0f7;
+    padding: 15px 15px 0;
+    width: 100%;
+}
+
+.main-screen-container .ant-table-cell{
+    font-size: 11px;
+    color: var(--primary-text-color);
+}
+
+.main-screen-container .allergy-table-input .ant-select-selector{
+    font-size: 11px;
+}
+
+.ptn-screen-right .ant-col.ant-col-lg-12 {
+    position: relative;
+}
+.ptn-screen-right > .ant-row > .ant-col.ant-col-lg-12::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    background: #fff;
+    border-radius: 4px;
+    z-index: 0;
+    width: 121%;
+}
+
+.main-screen-container .ant-select-selector {
+    padding: 0 7px !important;
+}
+.main-screen-container .ant-select-selector .ant-select-selection-search {
+    left: 7px;
+    right: 7px;
+}
+.centreloader {
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  margin: 20px 0;
+}
+
+.dragableDiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+.dragableDivHeader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}

@@ -1,0 +1,33 @@
+.follow-up-container{
+  background: #ffffff;
+  padding: 15px 15px 20px;
+  border-radius: 4px;
+}
+
+.follow-up-date-picker{
+  width: 100%;
+  border-radius: 4px;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.follow-up-date-picker .ant-picker-input input{
+  color: var(--primary-text-color) !important;
+  font-family: var(--primary-font-bold) !important;
+  font-size: 11px;  
+}
+
+.follow-up-date-picker .ant-picker-input input::placeholder{
+  font-family: var(--primary-font-regular) !important;
+}
+.input-presction-text{
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-regular);
+  border-radius: 4px;
+  height: 32px;
+}
+.border-radius-right {
+  border-radius: 4px 0 0 4px;
+}

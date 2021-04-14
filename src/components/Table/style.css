@@ -1,0 +1,455 @@
+.table-header-view {
+    width: 200px !important;
+}
+
+.opd-list-header-apoint{
+    color: var(--primary-text-color) !important;
+    font-size: var(--primary-font-size) !important;
+    font-family: var(--primary-font-bold);
+}
+
+.opd-list-search {
+    display: flex;
+}
+
+.opd-list-view-all {
+    margin-right: 10px;
+    
+}
+
+.opd-appoint-list {
+    margin-top: 10px;
+}
+
+.opd-list-container .ant-table-pagination-right {
+    display: none !important;
+}
+
+.opd-patient-table {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.opd-appoint-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.opd-appoint-footer-record {
+    color: var(--primary-text-color) !important;
+    font-size: var(--primary-font-size);
+    margin-right: 10px;    
+}
+
+.opd-appoint-footer-record span {
+    font-family: var(--primary-font-bold);
+}
+
+.opd-appoint-footer-gender {
+    display: flex;
+    align-items: center;
+    font-size: var(--primary-font-size);
+}
+
+.margin-top-gender {
+    margin-right: 10px;
+}
+
+.opd-appoint-gender-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-top: -3px;
+    padding: 3px;
+    margin-right: 2px;
+}
+
+.opd-appoint-footer-count {
+    color: var(--primary-background-color);
+    margin-left: 0;
+    margin-top: 4px;
+    font-family: var(--primary-font-bold);
+}
+
+.opd-appoint-footer-items {
+    margin-left: 10px;
+}
+
+.sep-bar {
+    padding-right: 11px;
+    position: relative;
+    margin-right: 8px !important;
+}
+
+.sep-bar::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -1px;
+    width: 1px;
+    height: 112%;
+    background: #c6d4e4;
+}
+
+.sep-bar-left {
+    position: relative;
+    padding-left: 11px;
+}
+
+.sep-bar-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 1px;
+    height: 112%;
+    background: #c6d4e4;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+/* Table Round */
+/* .table-round{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none
+} */
+
+.table-round {
+    margin-top: 7px;
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+
+.table-round:after, .table-round:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.table-round-a:after {
+    background: #3d6dac;
+    left: 0;
+}
+
+.table-round-w:after {
+    background: #9c3b33;
+    left: 0;
+}
+
+.table-round-n:before {
+    background: #92ac54;
+    right: 0;
+}
+
+.table-round-f:before {
+    background: #865fb0;
+    right: 0;
+}
+
+.table-round-r:before {
+    background: #13b3c2;
+    right: 0;
+}
+
+.table-round-o:before {
+    background: #e68136;
+    right: 0;
+}
+
+.yellow{
+    background-color: #FFCC00;
+}
+.blue{
+    background-color: blue;
+}
+
+.light-blue{
+    background-color: lightblue;
+}
+
+/* Opd Headings */
+.opd-table-headings{
+    font-family: var(--primary-font-bold);
+    color: var(--primary-text-color) !important;
+}
+
+.opd-list-search-input::placeholder{
+    color: #bdc2dd;
+    font-family: 'open_sansregular'
+}
+
+.opd-appoint-list .ant-table-cell{
+    color: var(--primary-text-color) !important;
+}
+
+.patient-name-text{
+    color: var(--primary-background-color);
+    font-family: var(--primary-font-bold);
+}
+
+.opd-appoint-tbl-btn{
+    margin-right: 10px;
+    border-radius: 5px !important;
+    text-transform: uppercase;
+    font-family: var(--primary-font-bold);
+    font-size: 10px;
+    display: inline-block;
+    height: 26px;
+}
+
+.grid-print-btn {
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.grid-print-btn:hover {
+    color: var(--primary-link-color);
+}
+
+.table-header-view .ant-select-selection-item{
+    color: var(--primary-text-color) !important;
+}
+
+/* Table */
+.opd-appoint-list .ant-table-thead .ant-table-cell{
+    background: #eaf0f7 !important;
+    
+}
+
+.opd-appoint-list .ant-table-tbody tr:nth-child(odd){
+    background: #f7f9fc !important;
+}
+
+.opd-appoint-list .ant-table-tbody tr td:nth-child(8) div{
+    margin-left: 100px !important;
+}
+
+.pntDetail{
+    display: list-item;
+    list-style-type: none;
+    margin-top: 14px;
+}
+
+.pntDetail .name {
+    font-size: 20px;
+    font-family: var(--primary-font-bold);
+    color: var(--selected-background-color);
+    display: inline-block;
+}
+
+.pntDetail .mrNo{
+    display: block;
+    text-transform: uppercase;
+    font-family:'open_sansbold';
+    color: var(--selected-background-color);
+}
+
+.ur-drawer-detail{
+    font-family: var(--primary-font-bold);
+    color: var(--primary-text-color) !important;
+}
+
+.ur-drawer-heading{
+    color: var(--primary-text-color) !important;
+}
+
+.demography-drawer .ant-drawer-header .ant-drawer-title{
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--primary-font-bold) !important;
+}
+
+.demography-drawer .ant-drawer-footer{
+    text-align: center;
+    background-color: #eaf0f7;
+    padding: 20px 0;
+}
+
+.demography-drawer-btn{
+    background-color: white;
+    border: none;
+    height: 35px !important;
+    padding: 0px 40px;
+    color: var(--selected-background-color) !important;
+    font-family: var(--primary-font-bold);
+}
+
+.ant-drawer-mask{
+    background-color: rgba(0,0,0,0.9) !important;
+}
+.demography-drawer-user-name {
+    color: var(--primary-text-color) !important;
+    font-family: 'open_sansbold';
+}
+
+.nr-table .ant-table-tbody .ant-table-row:focus-within .ant-table-cell, .nr-table .ant-table-tbody .ant-table-row.expand-parent, .ant-table-tbody > tr.ant-table-row.expand-parent:hover > td {
+    background-color: var(--selected-background-color) !important;
+    color: #ffffff !important;
+} 
+
+.nr-table .ant-table-row:focus-within .patient-name-text, .nr-table .expand-parent .ant-table-cell, .nr-table .ant-table-row:focus-within .opd-appoint-footer-record, .nr-table .expand-parent .ant-table-cell .patient-name-text, .nr-table .expand-parent .ant-table-cell .opd-appoint-footer-record {
+    color: #ffffff !important;
+}
+
+.nr-table .ant-table-tbody .ant-table-row.expand-parent .ant-avatar, .nr-table .ant-table-tbody .ant-table-row:focus-within .ant-table-cell .ant-avatar {
+    background: #fff;
+}
+
+.nr-table .expand-parent .ant-table-row-expand-icon {
+    color: var(--primary-text-color);
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 10px;
+    font-size: var(--primary-font-size);
+}
+
+.ant-table-tbody > tr > td {
+    padding: 6px 10px;
+}
+
+.ant-drawer-content-wrapper .ant-table-tbody > tr > td {
+    padding: 10px;
+}
+
+.ant-table .ant-table-container::after {
+    display: none;
+}
+
+/* Media  */
+
+@media only screen and (max-width: 75em){
+    .widht-100{
+        width: 100% !important;
+    }
+
+    .margin-item-5{
+        margin: 5px 0;
+    }
+    .opd-appoint-footer-items{
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+
+    .opd-list-table{
+        overflow-x: scroll;
+    }
+
+    .margin-top-5{
+        margin-top: 5px;
+    }
+
+    .mt-10{
+      margin-top: 10px;
+  }
+
+  .mb-10{
+      margin-bottom: 10px;
+  }
+  .margin-item{
+    margin: 10px 0;
+}
+}
+
+@media only screen and (max-width: 1306px){
+    .widht-100{
+        width: 100%;
+    }
+
+    .margin-item-5{
+        margin: 5px 0;
+    }
+
+    .opd-appont-list-table{
+        overflow-x: scroll;
+    }
+}
+
+@media only screen and (max-width: 56.25em){
+    .table-header-view{
+        width: 150px !important;
+    }
+    .opd-appoint-footer{
+        flex-direction: column;
+    }
+
+    .opd-footer-item{
+        flex-direction: column;
+    }
+
+    .widht-100{
+        width: 100% !important;
+    }
+
+    .margin-item{
+        margin: 10px 0;
+    }
+
+    .margin-item-2{
+        margin: 2px 0;
+    }
+    .margin-item-5{
+        margin: 5px 0;
+    }
+
+    .opd-table-list .ant-table-cell{
+        font-size: 11px;
+        overflow-x: scroll;
+    }
+
+    .opd-table-list{
+        overflow-x: scroll;
+    }
+
+    .opd-appoint-tbl-btn{
+        font-size: 11px;
+    }
+
+    .margin-top-gender{
+        margin: 5px 0;
+    }
+
+    .opd-appont-list-table{
+        overflow-x: scroll;
+        width: 1440px !important;
+    }
+
+    .opd-appont-list-table .ant-table{
+      width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 37.25em){
+  .table-header-view{
+    width: 100% !important;
+  }
+
+  .opd-table-list .ant-table-cell{
+    font-size: 10px ;
+  }
+
+  .opd-appoint-tbl-btn{
+    font-size: 11px;
+  }
+
+  .margin-top-gender{
+      margin-top: 5px;
+  }
+  .edit-font{
+    font-size: 16px;
+  }
+
+    
+}
